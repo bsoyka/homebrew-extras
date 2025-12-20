@@ -9,7 +9,7 @@ cask "altos" do
 
   livecheck do
     url "https://altusmetrum.org/AltOS/releases/"
-    regex(/href=["']?1\.9\.([0-9]+)\/["']?/i)
+    regex(%r{href=["']?1\.9\.([0-9]+)\/["']?}i)
   end
 
   depends_on macos: ">= :big_sur"
@@ -18,8 +18,8 @@ cask "altos" do
 
   postflight do
     # Remove the quarantine flag
-    system_command '/usr/bin/xattr',
-                   args: ['-d', 'com.apple.quarantine', "#{appdir}/AltosUI.app"],
+    system_command "/usr/bin/xattr",
+                   args: ["-d", "com.apple.quarantine", "#{appdir}/AltosUI.app"],
                    sudo: true
   end
 
