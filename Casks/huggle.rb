@@ -7,7 +7,6 @@ cask "huggle" do
 
   url "https://github.com/huggle/huggle3-qt-lx/releases/download/#{version}/huggle_#{version}_#{arch}.dmg",
       verified: "github.com/huggle/huggle3-qt-lx/"
-
   name "Huggle"
   desc "Anti-vandalism tool for Wikimedia projects"
   homepage "https://en.wikipedia.org/wiki/Wikipedia:Huggle"
