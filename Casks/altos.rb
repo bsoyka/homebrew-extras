@@ -9,7 +9,7 @@ cask "altos" do
 
   livecheck do
     url "https://altusmetrum.org/AltOS/releases/"
-    regex(%r{href=["']?1\.9\.([0-9]+)\/["']?}i)
+    regex(%r{href=["']?1\.9\.([0-9]+)/["']?}i)
   end
 
   depends_on macos: ">= :big_sur"
