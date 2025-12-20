@@ -1,4 +1,7 @@
-# Bsoyka Extras
+# Spare Homebrew casks
+
+This repository serves as a tap for a handful of programs I use that don't (yet)
+have Homebrew-official casks. They may be useful to others, or they may not.
 
 ## How do I install these formulae?
 
@@ -12,7 +15,3 @@ Or, in a `brew bundle` `Brewfile`:
 tap "bsoyka/extras"
 brew "<formula>"
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
