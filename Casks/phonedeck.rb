@@ -4,7 +4,7 @@ cask "phonedeck" do
 
   url "https://phonedeck.io/downloads/PhoneDeck-#{version}.dmg"
   name "PhoneDeck"
-  desc "Turns your iPhone into a wireless Mac controller"
+  desc "Turns your phone into a wireless controller"
   homepage "https://phonedeck.io/"
 
   livecheck do
