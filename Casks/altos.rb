@@ -12,7 +12,7 @@ cask "altos" do
     regex(%r{href=["']?1\.9\.([0-9]+)/["']?}i)
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "AltosUI.app"
 

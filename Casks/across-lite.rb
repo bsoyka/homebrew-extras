@@ -13,7 +13,7 @@ cask "across-lite" do
     regex(/Mac \(OS 11\.x Big Sur to 10\.14 Mojave\).*?Last update:.*?v\d+(?:\.\d+)*\s*\((\d+)\)/im)
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Across Lite.app"
 end
